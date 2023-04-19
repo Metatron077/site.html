@@ -1,0 +1,73 @@
+bory {
+max-width: 1200px;
+margin: 0px;
+background-color: rgb(226, 219, 219);
+}
+
+header alt super sayajin3{
+    background-color: black;
+    font-size: 1.9rem;
+} 
+
+header {
+ background-color: rgb(223, 203, 22);
+padding: 5px;
+display: flex;
+justify-content: start;
+
+}
+header span{ color: rgb(28, 74, 226);
+}
+
+header h1{ 
+
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+}
+
+
+
+h2 {
+    font-size: 2.1rem;
+    color: rgb(156, 7, 7);
+}
+h3{
+    font-size: 1.9rem;
+    color: rgb(57, 57, 221);
+}
+p{
+    font-size: 1.2rem;
+    color:rgb(11, 6, 41)
+}
+
+header img spc {
+    width: 300px;
+    height: 300px;
+    margin: 100px;
+}
+
+
+table, th, td {
+    font-size: 1.3rem;
+    border: 1px solid;
+}
+ table {
+    width: 70%;
+ border-collapse: collapse;
+
+ }
+th { 
+    background-color: rgb(163, 164, 245);
+    padding: 2px;
+    height: 70px;
+    width:40%;}
+td {
+    vertical-align: center;
+    text-align: center;
+    width: 60%;
+    height: 50px;
+}
+
+tr:nth-child(even) {background-color: rgb(250, 242, 231);}
+tr:hover {background-color: rgb(119, 231, 235);}
+
