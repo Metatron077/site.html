@@ -41,6 +41,11 @@
             games, Vegeta consegue a forma devido a uma combinação de extrema raiva e treinamento vigoroso, e Broly
             consegue sua versão da forma devido a uma grande Zenkai.</p><br>
 
+    <body>
+        <textarea name="texto" cols="40"
+            rows="10">O propósito do Super Saiyajin 3 é fazer seu usuário aumentar o uso de seu ki, o que a faz gastar ainda mais energia em relação a 2. Como consequência, o saiyajin fica ainda mais forte e rápido, já que ele consegue ir além do seu limite. Para se ter uma ideia de seu poder, quando Goku usou a transformação pela primeira vez na Terra, seu poder resultou no surgimento de enormes ondas e até mesmo furações e ela pôde ser sentida até mesmo no mundo sagrado dos Senhores Kaioh.</textarea><br><br>
+    </body>
+
 
     </head>
 
@@ -100,26 +105,168 @@
 
             <input type="submit" value="Salvar">
 
-        
-                <h1>Checkbox</h1>
 
-                <h3>Linguagens de programação</h3>
-                <label for="c#">c#</label>
-                <input id="c#" type="checkbox" name="linguagens"><br><br>
+            <h1>Checkbox</h1>
 
-                <label for="javaScript">javaScript</label>
-                <input id="javaScript" type="checkbox" name="linguagens"><br><br>
+            <h3>Linguagens de programação</h3>
+            <label for="c#">c#</label>
+            <input id="c#" type="checkbox" name="linguagens"><br><br>
 
-                <h3>Gênero</h3>
-                <label for="Masculino">Masculino</label>
-                <input id="masculino" type="radio" name="genero">
+            <label for="javaScript">javaScript</label>
+            <input id="javaScript" type="checkbox" name="linguagens"><br><br>
 
-                <label for="Feminino">Feminino</label>
-                <input id="Feminino" type="radio" name="genero">
+            <h3>Gênero</h3>
+            <label for="Masculino">Masculino</label>
+            <input id="masculino" type="radio" name="genero">
 
-            
+            <label for="Feminino">Feminino</label>
+            <input id="Feminino" type="radio" name="genero">
 
         </form>
+        <h1>Seleção de Filmes</h1>
+
+        <label for="filmes">Filmes</label>
+        <select id="filmes" name="filmes" multiple>
+            <option value="">Selecione um filme</option>
+            <option value="Senhor dos anéis">Senhor dos anéis</option>
+            <option value="Mad Max">Mad Max</option>
+            <option value="Vingadores">Vingadores</option>
+            <option value="Dragon Ball Z" selected>Dragon Ball Z</option>
+        </select>
+
+        <h1>Formulário</h1>
+    <h2>Formulário com GET</h2>
+    <BR>
+
+    <form method="get" action="index.html">
+      <p>
+        O método GET passará os dados do formulário como parâmetros da URL, como
+        quando realizamos uma busca. Não utilize o GET para inputs com
+        informações sensíveis como senhas, pois elas aparecerão na URL.
+      </p>
+      <label for="busca">Faça uma busca:</label>
+      <input type="text" name="q" id="busca" />
+      <input type="submit" value="Enviar" />
+    </form>
+
+    <h2>Formulário com POST</h2>
+    <form method="post" action="index.html">
+      <p>
+        O método POST passará os dados do formulário por baixo dos panos.
+        Utilizamos para tratar dados sensíveis como senhas e e-mails
+      </p>
+      <label for="senha">Digite sua senha:</label>
+      <input type="password" name="q" id="senha" />
+      <input type="submit" value="Enviar" />
+    </form>
+
+    <h2>Exemplo de formulário do Facebook (sem CSS):</h2>
+    <form method="GET" action="index.html">
+      <input type="text" name="nome" id="nome" placeholder="Nome" required />
+      <input
+        type="text"
+        name="sobrenome"
+        id="sobrenome"
+        placeholder="Sobrenome"
+        required
+      />
+
+      <br />
+
+      <input
+        type="text"
+        name="celular-ou-email"
+        id="celular-ou-email"
+        placeholder="Celular ou e-mail"
+        required
+      />
+      <input
+        type="password"
+        name="senha"
+        id="senha"
+        placeholder="Nova senha"
+        required
+      />
+
+      <br />
+      <br />
+
+      <label>Data de nascimento:</label>
+
+      <br />
+
+      <select name="dia" id="dia">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">5</option>
+        <option value="7">5</option>
+        <option value="8">5</option>
+        <option value="9">5</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+        <option value="13">13</option>
+        <option value="14">14</option>
+        <option value="15">15</option>
+        <option value="16">16</option>
+        <option value="17">17</option>
+        <option value="18">18</option>
+        <option value="19">19</option>
+        <option value="20">20</option>
+        <option value="21">21</option>
+        <option value="22">22</option>
+
+
+      </select>
+
+      <select name="mes" id="mes">
+        <option value="jan">Jan</option>
+        <option value="fev">Fev</option>
+        <option value="mar">Mar</option>
+        <option value="abr">Abr</option>
+        <option value="mai">Mai</option>
+      </select>
+
+      <select name="dia" id="dia">
+        <option value="1998">1998</option>
+        <option value="1999">1999</option>
+        <option value="2000">2000</option>
+        <option value="2001">2001</option>
+        <option value="2002">2002</option>
+      </select>
+
+      <br />
+      <br />
+
+      <label>Gênero:</label>
+
+      <br />
+
+      <input type="radio" name="genero" id="feminino" value="feminino" />
+      <label for="feminino">Feminino</label>
+      <input type="radio" name="genero" id="masculino" value="masculino" />
+      <label for="masculino">Masculino</label>
+      <input type="radio" name="genero" id="nao-binario" value="nao-binario" />
+      <label for="nao-binario">Não-binário</label>
+      <input
+        type="radio"
+        name="genero"
+        id="personalizar"
+        value="personalizar"
+      />
+      <label for="personalizar">Personalizar</label>
+
+      <br />
+      <br />
+
+      <input type="submit" value="Enviar" />
+
+        <br>
+        <br>
+
     </section><br>
     <br>
     <br>
